@@ -12,3 +12,6 @@ Deno 2.0 - Visit https://deno.com for installation instructions.
 1. You must provide either a NOSTR_NCRYPTSEC (recommended) or NOSTR_NSEC env var to run this task
 2. Run `deno task create-top40`
 
+`print-top40` - Prints the current Wavlake Top 40 songs.
+1. Run `deno task print-top40`
+

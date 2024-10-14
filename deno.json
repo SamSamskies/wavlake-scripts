@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "create-top40": "deno --allow-read --allow-env --allow-net src/createTop40Playlist.ts"
+    "create-top40": "deno --allow-read --allow-env --allow-net src/createTop40Playlist.ts",
+    "print-top40": "deno --allow-net src/printTop40.ts"
   },
   "imports": {
     "@std/cli": "jsr:@std/cli@^1.0.6",

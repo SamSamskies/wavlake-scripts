@@ -1,7 +1,6 @@
 import { EventTemplate, finalizeEvent } from "nostr-tools/pure";
 import { decrypt } from "nostr-tools/nip49";
 import { decode } from "nostr-tools/nip19";
-import "@std/dotenv/load";
 import { promptSecret } from "@std/cli";
 
 export const getSecretKey = () => {
