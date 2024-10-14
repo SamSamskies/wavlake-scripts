@@ -1,6 +1,6 @@
 import "@std/dotenv/load";
 import { createPlaylist, fetchTop40, updatePlaylist } from "./wavlake.ts";
-import { printCurrentLocalDate } from "./utils.ts";
+import { getCurrentDateUtc } from "./utils.ts";
 
 interface Track {
   id: string;
@@ -11,7 +11,7 @@ interface Track {
 const top40Tracks = await fetchTop40();
 
 // create playlist with title Top 10 - YYYY-MM-DD
-const title = `Top 40 - ${printCurrentLocalDate()}`;
+const title = `Top 40 - ${getCurrentDateUtc()}`;
 
 // print title and top 10 tracks
 top40Tracks.forEach(({ artist, title }: Track, i: number) => {
