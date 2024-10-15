@@ -15,3 +15,6 @@ Deno 2.0 - Visit https://deno.com for installation instructions.
 `print-top40` - Prints the current Wavlake Top 40 songs.
 1. Run `deno task print-top40`
 
+`fatzaps` - Finds recently zapped Wavlake tracks and prints out the top results.
+1. Run `deno task fatzaps`
+
